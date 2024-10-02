@@ -1,8 +1,8 @@
 # Server Information
-XYMON_SERVER='10.30.0.100'
+XYMON_SERVER='' # < --------------- Add your Xymon Server IP Address here
 XYMON_PORT=1984
 # Nodes
-ALIENWARE='Null-Bunny'
+ALIENWARE='' # < ------------------ Add your hostname of the node making the Fortinet Requests
 # Conditions
 CRITICAL='red'
 WARNING='yellow'
@@ -17,6 +17,6 @@ SIGNALQUALITY='Signal'
 BAND='Band'
 # Fortinet
 FORTIGATE_IP = '10.30.0.40'
-APIKEY='sQj3fps5xyn3cxnc018gq7jp9dmjzb'
-USERNAME='Bubbles'
+APIKEY='' # < ------------------ Insert a valid Fortigate API key here
+USERNAME='' # < ---------------- Add your Fortigate username here
 VERIFY=False
