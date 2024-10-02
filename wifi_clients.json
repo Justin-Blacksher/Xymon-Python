@@ -1,0 +1,1787 @@
+{
+    "http_method": "GET",
+    "results": [{
+            "ip": "10.30.0.57",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "96:6c:1b:1b:14:26",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 286800,
+            "sta_rxrate": 68800,
+            "sta_rxrate_mcs": 5,
+            "sta_rxrate_score": 23,
+            "sta_txrate": 114700,
+            "sta_txrate_mcs": 9,
+            "sta_txrate_score": 39,
+            "os": "iOS",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "data_rate_bps": 183500000,
+            "data_rxrate_bps": 68800000,
+            "data_txrate_bps": 114700000,
+            "snr": 29,
+            "idle_time": 14,
+            "association_time": 1726691133,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -66,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ax-2G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -66,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 29,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.102",
+            "ip6": [
+                "fe80::cc6:2fbd:f158:58f7"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "36:b1:83:b4:fb:59",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 19500,
+            "sta_rxrate_mcs": 2,
+            "sta_rxrate_score": 22,
+            "sta_txrate": 19500,
+            "sta_txrate_mcs": 2,
+            "sta_txrate_score": 22,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "data_rate_bps": 39000000,
+            "data_rxrate_bps": 19500000,
+            "data_txrate_bps": 19500000,
+            "snr": 30,
+            "idle_time": 30,
+            "association_time": 1726683898,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -65,
+            "vci": "",
+            "host": "Watch",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -65,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 30,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.87",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "b8:16:5f:ca:6c:4f",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 1000,
+            "sta_rxrate_mcs": 3,
+            "sta_rxrate_score": 1,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "LG",
+            "data_rate_bps": 66000000,
+            "data_rxrate_bps": 1000000,
+            "data_txrate_bps": 65000000,
+            "snr": 42,
+            "idle_time": 17,
+            "association_time": 1726666922,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -53,
+            "vci": "",
+            "host": "LG_Smart_Oven2_open",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -53,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 42,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.88",
+            "ip6": [
+                "fe80::ba16:5fff:fe9a:105a"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "b8:16:5f:9a:10:5a",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 1000,
+            "sta_rxrate_mcs": 3,
+            "sta_rxrate_score": 1,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "LG",
+            "data_rate_bps": 66000000,
+            "data_rxrate_bps": 1000000,
+            "data_txrate_bps": 65000000,
+            "snr": 51,
+            "idle_time": 51,
+            "association_time": 1726638524,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -44,
+            "vci": "",
+            "host": "LG_Smart_Range2_open",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -44,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 51,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.83",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "64:9a:63:37:b9:9d",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 65000,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "hostname": "Ring-649a6337B99D",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Ring",
+            "data_rate_bps": 130000000,
+            "data_rxrate_bps": 65000000,
+            "data_txrate_bps": 65000000,
+            "snr": 51,
+            "idle_time": 6,
+            "association_time": 1726566515,
+            "bandwidth_tx": 175,
+            "bandwidth_rx": 175,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -44,
+            "vci": "",
+            "host": "Ring-649a6337B99D",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -44,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 51,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.79",
+            "ip6": [
+                "fe80::daeb:46ff:fe0a:3e58"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "d8:eb:46:0a:3e:58",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 52000,
+            "sta_rxrate_mcs": 5,
+            "sta_rxrate_score": 60,
+            "sta_txrate": 58500,
+            "sta_txrate_mcs": 6,
+            "sta_txrate_score": 67,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Google",
+            "data_rate_bps": 110500000,
+            "data_rxrate_bps": 52000000,
+            "data_txrate_bps": 58500000,
+            "snr": 37,
+            "idle_time": 145,
+            "association_time": 1726560413,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -58,
+            "vci": "",
+            "host": "Nest-Thermostat-3E58",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -58,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 37,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.59",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "68:6c:e6:2b:c1:27",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 173000,
+            "sta_rxrate": 130000,
+            "sta_rxrate_mcs": 15,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 130000,
+            "sta_txrate_mcs": 15,
+            "sta_txrate_score": 75,
+            "os": "Windows",
+            "hostname": "XBOX",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Microsoft",
+            "data_rate_bps": 260000000,
+            "data_rxrate_bps": 130000000,
+            "data_txrate_bps": 130000000,
+            "snr": 41,
+            "idle_time": 61,
+            "association_time": 1726474192,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -54,
+            "vci": "MSFT 5.0 XBOX",
+            "host": "XBOX",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -54,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 41,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.72",
+            "ip6": [
+                "fe80::b532:44c0:d1b3:b15f"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "98:48:27:eb:16:85",
+            "11k_capable": false,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 65000,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "os": "Windows",
+            "hostname": "USER-PC",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "TP-Link",
+            "data_rate_bps": 130000000,
+            "data_rxrate_bps": 65000000,
+            "data_txrate_bps": 65000000,
+            "snr": 63,
+            "idle_time": 5,
+            "association_time": 1726094555,
+            "bandwidth_tx": 666,
+            "bandwidth_rx": 569,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -32,
+            "vci": "MSFT 5.0",
+            "host": "User-PC",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -32,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 63,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.82",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "64:9a:63:cd:d6:c6",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 1000,
+            "sta_rxrate_mcs": 3,
+            "sta_rxrate_score": 1,
+            "sta_txrate": 1000,
+            "sta_txrate_mcs": 3,
+            "sta_txrate_score": 1,
+            "os": "Android",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Ring",
+            "data_rate_bps": 2000000,
+            "data_rxrate_bps": 1000000,
+            "data_txrate_bps": 1000000,
+            "snr": 38,
+            "idle_time": 25,
+            "association_time": 1725978653,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -57,
+            "vci": "",
+            "host": "RingDoorbell-c6",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -57,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 38,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.100",
+            "ip6": [
+                "fe80::c264:31eb:28e5:825f"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "b8:27:eb:52:c4:89",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 65000,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "os": "Ubuntu",
+            "hostname": "raspberrypi",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Raspberry Pi",
+            "data_rate_bps": 130000000,
+            "data_rxrate_bps": 65000000,
+            "data_txrate_bps": 65000000,
+            "snr": 61,
+            "idle_time": 7,
+            "association_time": 1725901158,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 107,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -34,
+            "vci": "",
+            "host": "raspberrypi",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -34,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 61,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.89",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "9c:76:13:e6:a2:bb",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 65000,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 65000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Ring",
+            "data_rate_bps": 130000000,
+            "data_rxrate_bps": 65000000,
+            "data_txrate_bps": 65000000,
+            "snr": 49,
+            "idle_time": 13,
+            "association_time": 1725817465,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -46,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -46,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 49,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.84",
+            "ip6": [
+                "fe80::820c:f9ff:fecc:ca96"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 1,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "80:0c:f9:cc:ca:96",
+            "11k_capable": true,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 86500,
+            "sta_rxrate": 58500,
+            "sta_rxrate_mcs": 6,
+            "sta_rxrate_score": 67,
+            "sta_txrate": 58500,
+            "sta_txrate_mcs": 6,
+            "sta_txrate_score": 67,
+            "os": "Fire OS",
+            "hostname": "linux",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Amazon",
+            "data_rate_bps": 117000000,
+            "data_rxrate_bps": 58500000,
+            "data_txrate_bps": 58500000,
+            "snr": 27,
+            "idle_time": 8,
+            "association_time": 1725817441,
+            "bandwidth_tx": 1042,
+            "bandwidth_rx": 567,
+            "lan_authenticated": false,
+            "channel": 6,
+            "signal": -68,
+            "vci": "dhcpcd-6.8.2:Linux-4.9.77+:armv",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-2G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 33,
+            "health": {
+                "signal_strength": {
+                    "value": -68,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 27,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "24ghz",
+                    "severity": "fair"
+                },
+                "transmission_retry": {
+                    "value": 33,
+                    "severity": "fair"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.54",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "2a:ff:4e:a0:98:c0",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 433300,
+            "sta_rxrate": 130000,
+            "sta_rxrate_mcs": 3,
+            "sta_rxrate_score": 30,
+            "sta_txrate": 130000,
+            "sta_txrate_mcs": 3,
+            "sta_txrate_score": 30,
+            "os": "iOS",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "data_rate_bps": 260000000,
+            "data_rxrate_bps": 130000000,
+            "data_txrate_bps": 130000000,
+            "snr": 22,
+            "idle_time": 6,
+            "association_time": 1726698349,
+            "bandwidth_tx": 244,
+            "bandwidth_rx": 279,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -73,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -73,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 22,
+                    "severity": "fair"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.101",
+            "ip6": [
+                "fe80::d41f:b131:ffff:e843"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "84:7b:57:94:13:c6",
+            "11k_capable": true,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 1201000,
+            "sta_rxrate": 720600,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 60,
+            "sta_txrate": 720600,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 60,
+            "os": "Windows",
+            "hostname": "W-BP1Z2M3",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Intel Corporate",
+            "data_rate_bps": 1441200000,
+            "data_rxrate_bps": 720600000,
+            "data_txrate_bps": 720600000,
+            "snr": 32,
+            "idle_time": 6,
+            "association_time": 1726697261,
+            "bandwidth_tx": 3786,
+            "bandwidth_rx": 12828,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -63,
+            "vci": "MSFT 5.0",
+            "host": "W-BP1Z2M3",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ax-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 24,
+            "health": {
+                "signal_strength": {
+                    "value": -63,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 32,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 24,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.103",
+            "ip6": [
+                "fe80::5fad:7978:3e5e:4cab"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "6c:5a:b0:0f:0e:3a",
+            "11k_capable": false,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 433300,
+            "sta_rxrate": 325000,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 75,
+            "sta_txrate": 325000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 75,
+            "os": "Windows",
+            "hostname": "DESKTOP-A49R0CN",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "TP-Link",
+            "data_rate_bps": 650000000,
+            "data_rxrate_bps": 325000000,
+            "data_txrate_bps": 325000000,
+            "snr": 28,
+            "idle_time": 8,
+            "association_time": 1726694228,
+            "bandwidth_tx": 3114,
+            "bandwidth_rx": 131,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -67,
+            "vci": "MSFT 5.0",
+            "host": "DESKTOP-A49R0CN",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 71,
+            "health": {
+                "signal_strength": {
+                    "value": -67,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 28,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 71,
+                    "severity": "poor"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.95",
+            "ip6": [
+                "fe80::d6e2:2fff:fe50:1219"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "d4:e2:2f:50:12:19",
+            "11k_capable": false,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 866700,
+            "sta_rxrate": 780000,
+            "sta_rxrate_mcs": 8,
+            "sta_rxrate_score": 89,
+            "sta_txrate": 650000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 74,
+            "os": "Roku OS",
+            "hostname": "X025007E8M8F",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Roku",
+            "data_rate_bps": 1430000000,
+            "data_rxrate_bps": 780000000,
+            "data_txrate_bps": 650000000,
+            "snr": 46,
+            "idle_time": 5,
+            "association_time": 1726693505,
+            "bandwidth_tx": 18332,
+            "bandwidth_rx": 795355,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -49,
+            "vci": "",
+            "host": "DansStreamingStick4K",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 28,
+            "health": {
+                "signal_strength": {
+                    "value": -49,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 46,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 28,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.94",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "5c:dc:96:be:4a:ed",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 270000,
+            "sta_rxrate": 300000,
+            "sta_rxrate_mcs": 15,
+            "sta_rxrate_score": 111,
+            "sta_txrate": 270000,
+            "sta_txrate_mcs": 15,
+            "sta_txrate_score": 100,
+            "os": "Windows",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Arcadyan",
+            "data_rate_bps": 570000000,
+            "data_rxrate_bps": 300000000,
+            "data_txrate_bps": 270000000,
+            "snr": 40,
+            "idle_time": 7,
+            "association_time": 1726693499,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 41,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -55,
+            "vci": "",
+            "host": "LGwebOSTV",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11n-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -55,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 40,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.74",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "0e:0b:99:37:75:b6",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 600400,
+            "sta_rxrate": 216200,
+            "sta_rxrate_mcs": 4,
+            "sta_rxrate_score": 36,
+            "sta_txrate": 480400,
+            "sta_txrate_mcs": 9,
+            "sta_txrate_score": 80,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "SensAble",
+            "data_rate_bps": 696600000,
+            "data_rxrate_bps": 216200000,
+            "data_txrate_bps": 480400000,
+            "snr": 29,
+            "idle_time": 5,
+            "association_time": 1726693096,
+            "bandwidth_tx": 17672,
+            "bandwidth_rx": 2108,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -66,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ax-5G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 13,
+            "health": {
+                "signal_strength": {
+                    "value": -66,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 29,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 13,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.52",
+            "ip6": [
+                "::"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "a6:67:ab:df:05:fe",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 1201000,
+            "sta_rxrate": 172100,
+            "sta_rxrate_mcs": 7,
+            "sta_rxrate_score": 14,
+            "sta_txrate": 960800,
+            "sta_txrate_mcs": 9,
+            "sta_txrate_score": 80,
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "data_rate_bps": 1132900000,
+            "data_rxrate_bps": 172100000,
+            "data_txrate_bps": 960800000,
+            "snr": 46,
+            "idle_time": 10,
+            "association_time": 1726692254,
+            "bandwidth_tx": 41,
+            "bandwidth_rx": 41,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -49,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ax-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -49,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 46,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.56",
+            "ip6": [
+                "fe80::b081:83b6:5fb6:2e21"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "9c:b6:d0:dd:1b:41",
+            "11k_capable": false,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 866700,
+            "sta_rxrate": 866700,
+            "sta_rxrate_mcs": 9,
+            "sta_rxrate_score": 100,
+            "sta_txrate": 650000,
+            "sta_txrate_mcs": 7,
+            "sta_txrate_score": 74,
+            "os": "Windows",
+            "hostname": "Null-Bunny",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Rivet Networks",
+            "data_rate_bps": 1516700000,
+            "data_rxrate_bps": 866700000,
+            "data_txrate_bps": 650000000,
+            "snr": 54,
+            "idle_time": 5,
+            "association_time": 1726594231,
+            "bandwidth_tx": 1536,
+            "bandwidth_rx": 11878,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -41,
+            "vci": "MSFT 5.0",
+            "host": "Null-Bunny",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 8,
+            "health": {
+                "signal_strength": {
+                    "value": -41,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 54,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 8,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.55",
+            "ip6": [
+                "fe80::8e19:b5ff:fe52:b80a"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "8c:19:b5:52:b8:0a",
+            "11k_capable": true,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 866700,
+            "sta_rxrate": 6000,
+            "sta_rxrate_mcs": 3,
+            "sta_txrate": 260000,
+            "sta_txrate_mcs": 5,
+            "sta_txrate_score": 29,
+            "os": "Linux",
+            "hostname": "LGwebOSTV",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Arcadyan",
+            "data_rate_bps": 266000000,
+            "data_rxrate_bps": 6000000,
+            "data_txrate_bps": 260000000,
+            "snr": 19,
+            "idle_time": 7,
+            "association_time": 1726532474,
+            "bandwidth_tx": 221,
+            "bandwidth_rx": 384,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -76,
+            "vci": "",
+            "host": "LGwebOSTV",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 44,
+            "health": {
+                "signal_strength": {
+                    "value": -76,
+                    "severity": "poor"
+                },
+                "snr": {
+                    "value": 19,
+                    "severity": "fair"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 44,
+                    "severity": "fair"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.81",
+            "ip6": [
+                "fe80::5ae4:88ff:fe46:eb56"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "58:e4:88:46:eb:56",
+            "11k_capable": true,
+            "11v_capable": true,
+            "11r_capable": false,
+            "sta_maxrate": 433300,
+            "sta_rxrate": 390000,
+            "sta_rxrate_mcs": 9,
+            "sta_rxrate_score": 90,
+            "sta_txrate": 433300,
+            "sta_txrate_mcs": 9,
+            "sta_txrate_score": 100,
+            "os": "Android",
+            "hostname": "echoshow-089bee845bc39460",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Amazon",
+            "data_rate_bps": 823300000,
+            "data_rxrate_bps": 390000000,
+            "data_txrate_bps": 433300000,
+            "snr": 38,
+            "idle_time": 8,
+            "association_time": 1726504962,
+            "bandwidth_tx": 626,
+            "bandwidth_rx": 1271,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -57,
+            "vci": "",
+            "host": "echoshow-089bee845bc39460",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "1x1",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 36,
+            "health": {
+                "signal_strength": {
+                    "value": -57,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 38,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 36,
+                    "severity": "fair"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.68",
+            "ip6": [
+                "fe80::4a7:7628:2fbd:143d"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "56:0b:98:3f:cc:1a",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 866700,
+            "sta_rxrate": 585000,
+            "sta_rxrate_mcs": 6,
+            "sta_rxrate_score": 67,
+            "sta_txrate": 585000,
+            "sta_txrate_mcs": 6,
+            "sta_txrate_score": 67,
+            "os": "iPadOS",
+            "hostname": "Tiffanys-iPad",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "NiceTechVision",
+            "data_rate_bps": 1170000000,
+            "data_rxrate_bps": 585000000,
+            "data_txrate_bps": 585000000,
+            "snr": 38,
+            "idle_time": 9,
+            "association_time": 1726238571,
+            "bandwidth_tx": 41,
+            "bandwidth_rx": 41,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -57,
+            "vci": "",
+            "host": "",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -57,
+                    "severity": "good"
+                },
+                "snr": {
+                    "value": 38,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        },
+        {
+            "ip": "10.30.0.97",
+            "ip6": [
+                "fe80::6c1e:9513:df4c:520"
+            ],
+            "wtp_name": "Ghost",
+            "wtp_id": "FP231FTF2309B02E",
+            "wtp_radio": 2,
+            "wtp_ip": "10.5.0.51",
+            "wtp_control_ip": "10.5.0.51",
+            "wtp_control_local_ip": "10.5.0.51",
+            "vap_name": "SilenceOfTheLAN",
+            "ssid": "SilenceOfTheLAN",
+            "mac": "fc:8c:11:b7:3c:e1",
+            "11k_capable": false,
+            "11v_capable": false,
+            "11r_capable": false,
+            "sta_maxrate": 866700,
+            "sta_rxrate": 234000,
+            "sta_rxrate_mcs": 5,
+            "sta_rxrate_score": 26,
+            "sta_txrate": 468000,
+            "sta_txrate_mcs": 5,
+            "sta_txrate_score": 53,
+            "os": "Windows",
+            "hostname": "CORBINSXBOX",
+            "authentication": "pass",
+            "uses_captive_portal": false,
+            "captive_portal_authenticated": 0,
+            "manufacturer": "Microsoft",
+            "data_rate_bps": 702000000,
+            "data_rxrate_bps": 234000000,
+            "data_txrate_bps": 468000000,
+            "snr": 25,
+            "idle_time": 53,
+            "association_time": 1725820290,
+            "bandwidth_tx": 0,
+            "bandwidth_rx": 0,
+            "lan_authenticated": false,
+            "channel": 48,
+            "signal": -70,
+            "vci": "MSFT 5.0 XBOX",
+            "host": "CORBINSXBOX",
+            "security": 10,
+            "security_str": "wpa2_only_personal",
+            "encrypt": 1,
+            "noise": -95,
+            "radio_type": "802.11ac-5G",
+            "mimo": "2x2",
+            "vlan_id": 0,
+            "tx_discard_percentage": 0,
+            "tx_retry_percentage": 0,
+            "health": {
+                "signal_strength": {
+                    "value": -70,
+                    "severity": "fair"
+                },
+                "snr": {
+                    "value": 25,
+                    "severity": "good"
+                },
+                "band": {
+                    "value": "5ghz",
+                    "severity": "good"
+                },
+                "transmission_retry": {
+                    "value": 0,
+                    "severity": "good"
+                },
+                "transmission_discard": {
+                    "value": 0,
+                    "severity": "good"
+                }
+            }
+        }
+    ],
+    "vdom": "root",
+    "path": "wifi",
+    "name": "client",
+    "status": "success",
+    "serial": "FGT70FTK22071317",
+    "version": "v7.4.4",
+    "build": 2662
+}
