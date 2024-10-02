@@ -84,8 +84,29 @@ def signaltonoise(client, serv):
         message += f"Noise Severity: {client['noise_severity']}\n"
         message += f"Noise Level : {client['noise_level']}\n"
         xy.send_report(monitor=serv, server=s_name, label=settings.SNR, indicator=settings.CRITICAL, msg=message) 
-    # -----------------------
+    
 
+    # -----------------------
+def signalscore(client, serv):
+    message = "Wi-Fi Client Info:\n\n"
+    if client['hostname']:
+        s_name = client['hostname']
+        message += f"Hostname: {client['hostname']}\n"
+        message += f"MAC: {client['mac']}\n"
+    else:
+        s_name = client['ip']
+        message += f"IP: {client['ip']}\n"
+        message += f"MAC: {client['mac']}\n"
+    # ------ [ SNR score ] ----------
+    if client['signal_level'] + client['noise_level'] > 20:
+        message += f"Signal Score: {client['noise_level'] + client['signal_level']}"
+        xy.send_report(monitor=serv, server=s_name, label=settings.SCORE, indicator=settings.PASSING, msg=message)
+    elif client['signal_level'] + client['noise_level'] < 20 and client['signal_level'] + client['noise_level'] > 0:
+        message += f"Signal Score: {client['noise_level'] + client['signal_level']}"
+        xy.send_report(monitor=serv, server=s_name, label=settings.SCORE, indicator=settings.WARNING, msg=message)
+    elif client['signal_level'] + client['noise_level'] < 0:
+        message += f"Signal Score: {client['noise_level'] + client['signal_level']}"
+        xy.send_report(monitor=serv, server=s_name, label=settings.SCORE, indicator=settings.CRITICAL, msg=message)
 
 def band(client, serv):
     message = "Wi-Fi Client Info:\n\n"
@@ -118,6 +139,7 @@ def format_wifi_client_messages(clients, serv):
         signal(client=client, serv=serv)
         signaltonoise(client=client, serv=serv)
         band(client=client, serv=serv)
+        signalscore(client=client, serv=serv)
         
 def send_messages(response, serv):
     if response.status_code == 200:
