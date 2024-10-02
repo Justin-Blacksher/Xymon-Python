@@ -1,1 +1,1 @@
-start "" "python3" "c:\Users\Owner\OneDrive\Documents\KSL\main.py"
+start "" "python3" "" < ----- Add a path to your file
