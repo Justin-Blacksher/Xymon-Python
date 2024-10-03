@@ -48,21 +48,26 @@ scan_access_points() {
     BEGIN {
         bssid = ""; ssid = ""; rssi = "";
     }
-    /BSS/ {
-        if (bssid != "" && ssid != "" && rssi != "") {
-            printf("%s, %s, %s, %.2f\n", ssid, bssid, rssi, 10^(((-50 - rssi) / (10 * 2))) * 3.28084) >> "'$output_file'"
-        }
-        bssid = $2;
+    # Filter only BSS lines for BSSID and SSID lines for valid SSIDs
+    /BSS [0-9A-Fa-f:]+\(on/ {
+        bssid = $2; next;
     }
     /SSID:/ {
-        ssid = $2;
+        if ($2 != "" && $2 != "on" && $2 != "BSS" && $2 != "Load:" && $2 != "OBSS" && $2 != "Control") {
+            ssid = $2;
+        } else {
+            ssid = "[Hidden]";
+        }
     }
     /signal:/ {
         rssi = $2;
     }
-    END {
+    # After collecting BSSID, SSID, and RSSI, calculate distance and print
+    {
         if (bssid != "" && ssid != "" && rssi != "") {
-            printf("%s, %s, %s, %.2f\n", ssid, bssid, rssi, 10^(((-50 - rssi) / (10 * 2))) * 3.28084) >> "'$output_file'"
+            distance = 10^(((-50 - rssi) / (10 * 2))) * 3.28084;
+            printf("%s, %s, %s, %.2f\n", ssid, bssid, rssi, distance) >> "'$output_file'"
+            bssid = ""; ssid = ""; rssi = "";  # Reset for the next entry
         }
     }'
 
