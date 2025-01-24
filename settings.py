@@ -17,7 +17,7 @@ SIGNALQUALITY='Signal'
 BAND='Band'
 SCORE='Score'
 # Fortinet
-FORTIGATE_IP = '' < ----------- Insert Fortigate IP
+FORTIGATE_IP = '' # < ----------- Insert Fortigate IP
 APIKEY='' # < ------------------ Insert a valid Fortigate API key here
 USERNAME='' # < ---------------- Add your Fortigate username here
 VERIFY=False
